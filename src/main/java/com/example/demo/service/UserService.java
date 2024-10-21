@@ -5,7 +5,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.UserEntity;
-import com.example.demo.presistence.UserRepository;
+import com.example.demo.persistence.UserRepository;
 
 import lombok.extern.slf4j.Slf4j;
 
