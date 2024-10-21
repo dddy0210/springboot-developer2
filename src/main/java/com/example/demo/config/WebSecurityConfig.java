@@ -50,7 +50,7 @@ public class WebSecurityConfig {
    public CorsConfigurationSource corsConfigurationSource() {
       CorsConfiguration configuration = new CorsConfiguration();
       //React 애플리케이션이 실행되는 출처에서 오는 요청을 허용
-      configuration.setAllowedOrigins(Arrays.asList("localhost:3000"
+      configuration.setAllowedOrigins(Arrays.asList("http://localhost:3000"
     		  ,"http://app.yeye-test.site"
     		  ,"https://app.yeye-test.site"));
       //HTTP메서드 허용
